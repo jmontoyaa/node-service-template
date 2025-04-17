@@ -18,7 +18,6 @@ export default defineConfig({
       provider: 'v8',
       include: ['src/**/*.ts'],
       exclude: [
-        'src/db/*',
         'src/infrastructure/logger.ts',
         'src/infrastructure/diConfig.ts',
         'src/infrastructure/errors/publicErrors.ts',
